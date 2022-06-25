@@ -1,0 +1,8 @@
+
+@media (max-width: 767px) {
+    .fire_grid .grid_content {
+        margin-bottom: 30px;
+    }
+    
+    
+}/*--end media query 480-767px--*/

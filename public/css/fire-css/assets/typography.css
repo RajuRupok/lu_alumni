@@ -1,0 +1,34 @@
+/*=================Master style===================*/
+.fire_hedding .single_hedding .fw_700,
+.fire_hedding .single_hedding .fw_300 {
+    margin-bottom: 10px;
+}
+
+
+.fire_paragraph .single_paragraph {
+    border: 1px solid #dddddd;
+    padding: 40px 30px;
+}
+.fire_paragraph .single_paragraph p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+
+
+/*=================responsive style===================*/
+
+/* ------------Tab Screen------------*/
+@media (max-width: 991px) {
+    .fire_hedding .single_hedding {
+        margin-bottom: 40px;
+    } 
+    .fire_paragraph .single_paragraph {
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+}/*--end media query 768-991px--*/

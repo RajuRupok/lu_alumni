@@ -1,0 +1,146 @@
+/*-----------button common style------------*/
+ul.buttons li {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+ul.buttons button {
+    border: medium none;
+    cursor: pointer;
+}
+
+
+/*-----button style-1-------*/
+ul.buttons .button1 {
+    height: 65px;
+    width: 240px;
+}
+ul.buttons .button1:hover {
+    background: #4f75fd;
+}
+
+ul.buttons .button1.border {
+    border: 1px solid #365cff!important
+}
+ul.buttons .button1.border:hover {
+    background: #365cff;
+    color: #fff;
+}
+
+
+/*-----button style-2-------*/
+ul.buttons .button2 {
+  height: 62px;
+  width: 220px;
+}
+ul.buttons .button2:hover {
+    background: #0070d1;
+}
+
+ul.buttons .button2.border {
+    border: 1px solid #0482f8!important
+}
+ul.buttons .button2.border:hover {
+    background: #0482f8;
+    color: #fff;
+}
+
+/*-----button style-3-------*/
+ul.buttons .button3 {
+    height: 50px;
+    width: 140px;
+}
+ul.buttons .button3:hover {
+    background: #11437c;
+}
+
+ul.buttons .button3.border {
+    border: 1px solid #31639c!important
+}
+ul.buttons .button3.border:hover {
+    background: #31639c;
+    color: #fff;
+}
+
+/*-----button style-4-------*/
+ul.buttons .button4 {
+    height: 55px;
+    width: 195px;
+}
+ul.buttons .button4:hover {
+    background: #79b407;
+}
+
+ul.buttons .button4.border {
+    border: 1px solid #91cc00!important
+}
+ul.buttons .button4.border:hover {
+    background: #91cc00;
+    color: #fff;
+}
+
+
+/*-----button style-5-------*/
+ul.buttons .button5 {
+    height: 50px;
+    width: 170px;
+}
+ul.buttons .button5:hover {
+    background: #e6ac28;
+}
+
+ul.buttons .button5.border {
+    border: 1px solid #f9bf3b!important
+}
+ul.buttons .button5.border:hover {
+    background: #f9bf3b;
+    color: #fff;
+}
+
+/*-----button style-6-------*/
+ul.buttons .button6 {
+    height: 45px;
+    width: 170px;
+}
+ul.buttons .button6:hover {
+    background: #424242;
+}
+
+ul.buttons .button6.border {
+    border: 1px solid #17171b!important
+}
+ul.buttons .button6.dark {
+    border: 1px solid #fff!important
+}
+ul.buttons .button6.border:hover {
+    background: #17171b;
+    color: #fff;
+}
+ul.buttons .button6.dark:hover {
+    background: #e1e1e1;
+    color: #000;
+}
+
+
+/*-----no need to use this responsive code--------*/
+@media (max-width: 991px) {
+    ul.buttons li {
+        margin-bottom: 27px;
+        margin-right: 27px;
+    }
+    
+    
+}/*--end media query 768-991px--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

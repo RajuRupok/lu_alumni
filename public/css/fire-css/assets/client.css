@@ -1,0 +1,213 @@
+/*------------client common style------------*/
+.fire_client.border {
+    border-bottom: 1px solid #eeeeee;
+}
+.fire_client .client_wrapper {
+    margin-left: -30px;
+}
+.fire_client .single_client {
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 29px;
+    margin-left: 29px;
+    width: 17.4%;
+}
+.fire_client .single_client .img_area {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+/*---------client style-1------------*/
+.fire_client1 .single_client {
+    height: 140px;
+}
+.fire_client1 .single_client .img_area:hover {
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.19);
+}
+
+
+/*----------client style-2------------*/
+.fire_client2 .single_client .img_area {
+    border: 1px solid #eeeeee;
+    height: 140px;
+}
+.fire_client2 .single_client h6 {
+    margin-top: 22px;
+    text-align: center;
+}
+.fire_client2 .single_client span {
+    font-size: 14px;
+    color: #888;
+    display: block;
+    text-align: center;
+    margin-top: 2px;
+}
+.fire_client2 .single_client:hover .img_area {
+    border-color: #0482f8;
+}
+.fire_client2 .single_client h6 a:hover {
+    color: #0482f8;
+}
+
+
+/*--------------client style-3---------------*/
+.fire_client3 .single_client {
+    height: 140px;
+    width: 20%;
+}
+.fire_client3 .single_client,
+.fire_client3 .single_client .img_area {
+    border-radius: 0px;
+}
+.fire_client3 .single_client {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.fire_client3 .client_wrapper {
+    margin-left: 0px;
+}
+.fire_client3 .single_client {
+    border-left: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+}
+.fire_client3 .single_client:nth-child(1) {
+    border-top: 0;
+    border-left: 0;
+}
+.fire_client3 .single_client:nth-child(2),
+.fire_client3 .single_client:nth-child(3),
+.fire_client3 .single_client:nth-child(4),
+.fire_client3 .single_client:nth-child(5) {
+    border-top: 0;
+}
+.fire_client3 .single_client:nth-child(6) {
+    border-left: 0;
+}
+.fire_client3 .single_client .img_area:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+/*--------------client style-4---------------*/
+.fire_client4 .single_client {
+    height: 140px;
+}
+.fire_client4 .client_wrapper {
+    margin-left: 0;
+}
+.fire_client4 .single_client {
+    margin: 0;
+    border-radius: 0;
+    width: 20%;
+}
+.fire_client4 .single_client .img_area {
+    border-radius: 0;
+}
+.fire_client4 .single_client .img_area:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+/*--------------------respnsive style----------------*/
+
+@media (max-width: 1199px) {
+
+    /*---------client section style----------*/
+    .fire_client2 .single_client,
+    .fire_client1 .single_client {
+        width: 16.9%;
+    }
+    .fire_client4 .single_client,
+    .fire_client3 .single_client {
+        width: 20%;
+    }
+    
+    
+}/*end 992-1199*/
+
+
+@media (max-width: 991px) {
+
+    /*---------client section style----------*/
+    .fire_client2 .single_client,
+    .fire_client1 .single_client {
+        width: 20.9%;
+    }
+    .fire_client4 .single_client,
+    .fire_client3 .single_client {
+        width: 20%;
+    }
+    
+    
+}
+
+
+@media (max-width: 767px) {
+
+    /*---------client section style----------*/
+    .fire_client2 .single_client,
+    .fire_client1 .single_client {
+        width: 27.0%;
+    }
+    .fire_client3 .single_client,
+    .fire_client4 .single_client {
+        width: 33.3%;
+    }
+    .fire_client3 .single_client {
+        border: none;
+    }
+    
+    
+}
+
+
+@media (max-width: 479px) {
+
+    /*---------client section style----------*/
+    .fire_client2 .client_wrapper,
+    .fire_client1 .client_wrapper {
+        margin-left: -15px;
+    }
+    .fire_client4 .single_client,
+    .fire_client3 .single_client,
+    .fire_client2 .single_client,
+    .fire_client1 .single_client {
+        width: 44.4%;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

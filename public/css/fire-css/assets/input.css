@@ -1,0 +1,461 @@
+/*----------------input field style--------------*/
+.fire_input2 textarea,
+.fire_input2 input,
+.fire_input1 input {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #222;
+    font-size: 15px;
+    height: 45px;
+    margin-right: 10px;
+    padding: 7px 10px 7px 17px;
+    width: 220px;
+}
+.fire_input1 input {
+    background: #f5f7f9;
+}
+.fire_input2 .input1,
+.fire_input1 .input1 {
+    border-color: #c5cedd;
+}
+.fire_input2 .input2,
+.fire_input1 .input2 {
+    border-color: #22be1a;
+}
+.input2::-webkit-placeholder {
+    color: #22be1a;
+}
+.input2::-moz-placeholder {
+    color: #22be1a;
+}
+.input2::-ms-placeholder {
+    color: #22be1a;
+}
+.fire_input2 .input3,
+.fire_input1 .input3 {
+    border-color: #ec2828;
+}
+.input3::-webkit-placeholder {
+    color: #ec2828;
+}
+.input3::-moz-placeholder {
+    color: #ec2828;
+}
+.input3::-ms-placeholder {
+    color: #ec2828;
+}
+.fire_input2 .group {
+    display: inline-block;
+}
+.fire_input2 .group.textarea {
+    display: block;
+}
+.fire_input2 textarea {
+    height: 140px;
+    resize: none;
+    width: 520px;
+}
+
+.fire_input2 label {
+    color: #414851;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+}
+.fire_input2 textarea:focus {
+    box-shadow: none;
+    outline: 0px;
+}
+
+
+/*--------------select box style-------------*/
+/*----- no need this code-------*/
+.fire_select {
+    display: inline-block;
+    margin-right: 40px;
+}
+.fire_select3 {
+    margin-right: 0px;
+}
+
+/*---------select common style----------*/
+.fire_select .nice-select {
+    border-radius: 3px;
+    height: 44px;
+    line-height: 44px;
+    width: 240px;
+    background: #f5f7f9;
+}
+.fire_select .nice-select .list {
+    border: 1px solid #c5cedd;
+    border-radius: 3px;
+    box-shadow: none;
+    width: 238px;
+}
+.fire_select .nice-select .option {
+    color: #757f8d;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 45px;
+    min-height: 46px;
+}
+.fire_select .nice-select .option:hover {
+    background-color: #f5f7f9;
+    color: #222;
+}
+
+
+.fire_select2 .nice-select .list,
+.fire_select2 .nice-select {
+    background: #414851;
+    color: #fff;
+    border: none;
+}
+.fire_select3 .nice-select::after,
+.fire_select2 .nice-select::after {
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.fire_select2 .nice-select .option {
+    color: #abb4c0;
+}
+.fire_select1 .nice-select .option:hover {
+    background-color: #515861;
+    color: #fff;
+}
+.fire_select3 .nice-select {
+    background: #2079ff;
+    color: #fff;
+    border: none;
+}
+
+
+
+/*----------------------------radio button style---------------------*/
+.fire_radio1 {
+    display: inline-block;
+    list-style: outside none none;
+    margin-right: 150px;
+}
+.fire_radio1:last-child {
+    margin-right: 0px;
+}
+.fire_radio1 label {
+    color: #414851;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.fire_radio1 input[type="radio"] {
+    display: none;
+}
+.fire_radio1 input[type="radio"]+.fire_radio1 label {
+    color: #292321;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.fire_radio1 input[type="radio"]+label span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -1px 15px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.fire_radio1 input[type="radio"]+label span {
+    border: 2px solid #a9b4c6;
+    position: relative;
+}
+.fire_radio1 input[type="radio"]+label span:before {
+    background: #2079ff none repeat scroll 0 0;
+    border-radius: 100%;
+    content: "";
+    height: 10px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 10px;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.fire_radio1 input[type="radio"]:checked+label span {
+    border-color: #2079ff;
+}
+
+.fire_radio1 input[type="radio"]:checked+label span:before {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.fire_radio1 input[type="radio"]+label span,
+.fire_radio1 input[type="radio"]:checked+label span {
+    -webkit-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+.fire_radio1 .disable label {
+  color: #a7afb9;
+}
+.fire_radio1 .disable input[type="radio"] + label span::before {
+  background: #a9b4c6 none repeat scroll 0 0;
+}
+.fire_radio1 .disable input[type="radio"]:checked+label span {
+    border-color: #a9b4c6;
+}
+.fire_radio1.squre input[type="radio"] + label span {
+  border-radius: 5px;
+}
+.fire_radio1.squre input[type="radio"] + label span::before {
+  border-radius: 0;
+}
+.fire_radio1 .group.disable label {
+    cursor: no-drop;
+}
+
+
+/*----------------------------checkbox style-----------------------------*/
+.fire_checkbox {
+    display: inline-block;
+    list-style: outside none none;
+    margin-right: 150px;
+}
+.fire_checkbox:last-child {
+    margin-right: 0px;
+}
+.fire_checkbox label {
+    color: #414851;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.fire_checkbox input[type="checkbox"] {
+    display: none;
+}
+.fire_checkbox input[type="checkbox"]+.fire_checkbox label {
+    color: #292321;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.fire_checkbox input[type="checkbox"]+label span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -1px 15px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.fire_checkbox input[type="checkbox"]+label span {
+    border: 2px solid #a9b4c6;
+    position: relative;
+}
+.fire_checkbox input[type="checkbox"]+label span:before {
+    border-radius: 100%;
+    color: #fff;
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 11px;
+    line-height: 17px;
+    left: 3px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.fire_checkbox input[type="checkbox"]:checked+label span {
+    background: #2079ff none repeat scroll 0 0;
+    border-color: #2079ff;
+}
+.fire_checkbox input[type="checkbox"]:checked+label span:before {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.fire_checkbox input[type="checkbox"]+label span,
+.fire_checkbox input[type="checkbox"]:checked+label span {
+    -webkit-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
+    -moz-transition: background-color 0.2s linear;
+    transition: background-color 0.2s linear;
+}
+.fire_checkbox .disable label {
+  color: #a7afb9;
+}
+.fire_checkbox .disable input[type="checkbox"]:checked+label span {
+   background: #a9b4c6 none repeat scroll 0 0;
+border-color: #a9b4c6;
+}
+fire_checkbox.squre input[type="checkbox"] + label span {
+  border-radius: 5px;
+}
+.fire_checkbox.squre input[type="checkbox"] + label span::before {
+  border-radius: 0;
+}
+.fire_checkbox .group.disable label {
+    cursor: no-drop;
+}
+
+
+
+
+/*-------------------------------input switch-----------------------------*/
+/*----no need this code------*/
+.input_switch.pb_100 {
+  overflow: hidden;
+}
+.input_switch ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+/*------switch style start here-------*/
+.fire_switch>input#buttonTwo,
+.fire_switch>input#buttonOne {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.fire_switch label {
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    height: 45px;
+    line-height: 30px;
+    position: relative;
+    transition: all 200ms ease 0s;
+    width: 110px;
+}
+.fire_switch input[type=checkbox]:checked ~ label.attention:hover:before  {
+	content: "on";
+	font-size: 14px
+}
+.fire_switch label i {
+    background: #fff;
+    border-radius: 36px;
+    display: block;
+    height: 31px;
+    position: absolute;
+    right: 70px;
+    top: 6px;
+    transition: all 200ms ease 0s;
+    width: 31px;
+}
+.fire_switch label:active i:before {
+	box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.3);
+}
+.fire_switch label:before {
+    content: "off";
+    font-size: 20px;
+    position: absolute;
+    right: 19px;
+    text-transform: uppercase;
+    top: 7px;
+    transition: all 200ms ease 0s;
+}
+.fire_switch input[type=checkbox]:checked~label:before {
+    content: "on";
+    left: 22px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 7px;
+}
+.fire_switch input[type=checkbox]:checked ~ label{
+	background: #195dcf;
+}
+.fire_switch input[type=checkbox]:checked~label i {
+    right: 8px;
+    top: 7px;
+}
+
+
+/*-----switch style-2------*/
+.fire_switch2 input[type="checkbox"]:checked~label::before {
+    content: "\f00c";
+    font-family: fontawesome;
+    left: 22px;
+    top: 7px;
+    font-size: 27px;
+}
+
+.fire_switch2 label::before {
+    content: "\f00d";
+    font-family: fontawesome;
+    font-size: 30px;
+    right: 25px;
+    top: 7px;
+}
+
+
+/*---------------no need this code--------------*/
+@media (max-width: 991px) {
+    .fire_input2 input,
+    .fire_input1 input {
+        width: 217px;
+    }
+    .fire_input2 textarea{
+        width: 100%;
+    }
+    .fire_select {
+        margin-right: 10px;
+    }
+    .fire_select .nice-select .list,
+    .fire_select .nice-select {
+        width: 217px;
+    }
+    
+    
+    
+}/*--end media query 768-991px--*/
+
+
+@media (max-width: 767px) {
+    .fire_input2 input,
+    .fire_input1 input {
+        margin-bottom: 15px;
+    }
+    .fire_radio1,
+    .fire_checkbox {
+        margin-right: 0;
+    }
+    
+    
+    
+}/*--end media query 768-991px--*/
+
+
+
+
+
+

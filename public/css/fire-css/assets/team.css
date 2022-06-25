@@ -1,0 +1,358 @@
+/*--------------team common style--------------*/
+.fire_team{
+    border-bottom: 1px solid #ddd;
+}
+.fire_team .member_info p {
+    color: #888888;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.fire_team .member_info .social_contact a {
+    color: #888888;
+    font-size: 17px;
+    padding: 2px 6px;
+}
+.fire_team .member_info .social_contact li:first-child a {
+    padding-left: 0;
+}
+.fire_team .member_info .social_contact a:hover {
+    color: #0482f8;
+}
+
+/*-------team style-1-------*/
+.fire_team1 .single_member{
+    padding-bottom: 60px;
+}
+.fire_team1 .member_info > h2 {
+  line-height: 40px;
+}
+.fire_team1 .member_info > h4 {
+  line-height: 27px;
+}
+.fire_team1 .member_info span.title {
+  font-size: 18px;
+}
+.fire_team1 .small .member_img {
+    width: 385px;
+}
+.fire_team1 .small span.title {
+  font-size: 14px;
+}
+
+
+/*-----------team style-2--------*/
+.fire_team2 .single_member>img {
+    border-radius: 100%;
+    max-width: 270px;
+    width: 100%;
+}
+.fire_team2 .team_wrapper {
+    margin-left: -98px;
+}
+.fire_team2 .single_member {
+    float: left;
+    margin-left: 97px;
+    width: 16.9%;
+}
+.fire_team2 .single_member a {
+    color: #333333;
+    display: inline-block;
+    font-weight: 500;
+}
+.fire_team2 .single_member h4 {
+    line-height: 28px;
+    margin-top: 25px;
+}
+.fire_team2 .single_member a:hover {
+    color: #0482F8;
+}
+.fire_team2 .single_member span.title {
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+/*--------team style-3-----------*/
+.fire_team3 .single_member>img {
+   border-radius: 10px;
+    width: 100%;
+}
+.fire_team3 .team_wrapper {
+    margin-left: -30px;
+}
+.fire_team3 .single_member {
+    float: left;
+    margin-left: 30px;
+    width: 22.3%;
+}
+.fire_team3 .single_member a {
+    color: #333333;
+    display: inline-block;
+    font-weight: 500;
+}
+.fire_team3 .single_member h4 {
+    line-height: 28px;
+    margin-top: 25px;
+}
+.fire_team3 .single_member a:hover {
+    color: #0482F8;
+}
+.fire_team3 .single_member span.title {
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+/*-------------team style-4-----------------*/
+.fire_team4 .member_info span.title {
+  font-size: 18px;
+}
+.fire_team4 .single_member {
+    margin-bottom: 60px;
+}
+.fire_team4 .single_member .member_img {
+    width: 42%;
+}
+.fire_team4 .single_member .member_info {
+    width: 58%;
+    padding-left: 100px;
+}
+.fire_team4 .col-12:nth-child(2n) .single_member {
+  flex-flow: row-reverse wrap;
+}
+.fire_team4 .col-12:nth-child(2n) .single_member .member_info {
+    padding-left: 0px;
+    padding-right: 100px;
+}
+
+
+/*----------------team style-5--------------*/
+.fire_team5{
+    background: #f1f1f1;
+}
+.fire_team5 .single_member{
+    border-radius: 10px;
+}
+.fire_team5 .single_member>img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.fire_team5 .single_member .member_info {
+    padding: 25px;
+}
+.fire_team5 .single_member .member_info p {
+    padding-bottom: 0;
+}
+.fire_team5 .single_member span.title {
+    font-size: 14px;
+}
+.fire_team5 .single_member h4 a {
+  color: #333;
+}
+.fire_team5 .single_member h4 a:hover {
+  color: #0482f8;
+}
+.fire_team5 .single_member .member_info p {
+    line-height: 26px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+
+/*----------------team style-6--------------*/
+.fire_team6 .single_member > img {
+  width: 100%;
+    border-radius: 10px;
+}
+.fire_team6 .single_member span.title {
+    font-size: 14px;
+}
+.fire_team6 .single_member h4 a {
+  color: #333;
+}
+.fire_team6 .single_member h4 a:hover {
+  color: #0482f8;
+}
+.fire_team6 .single_member .member_info p {
+    line-height: 26px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+
+
+/*-----------------------responsive style--------------*/
+/* ================Large Display==============*/
+@media (max-width: 1199px) {
+    .fire_team .member_info p {
+        padding-top: 10px;
+        line-height: 25px;
+    }
+    
+    /*------style-2--------*/
+    .fire_team2 .team_wrapper {
+        margin-left: -50px;
+    }
+    .fire_team2 .single_member {
+        margin-left: 50px;
+        width: 19.8%;
+    }
+    
+    /*------style-3-------*/
+    .fire_team3 .single_member {
+        width: 21.8%;
+    }
+    
+    
+}/*--end media query 992-1199px--*/
+
+
+/* ====================Tab Screen==============*/
+@media (max-width: 991px) {
+   
+    /*-----------style-1---------*/
+    .fire_team1 .row.align_row_spacebetween.pb_60 {
+        display: block;
+    }
+    .fire_team1 .row.align_row_spacebetween img.img-fluid {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    
+    /*------style-2------*/
+    .fire_team2 .single_member {
+        margin-bottom: 50px;
+        width: 43.2%;
+    }
+    
+    /*------style-3------*/
+    .fire_team3 .single_member {
+        width: 45.8%;
+        margin-bottom: 40px;
+    }
+    .fire_team3 .single_member img {
+        width: 100%;
+    }
+    
+    /*------style-4------*/
+    .fire_team4 .single_member .member_info {
+        padding-left: 30px;
+        width: 58%;
+    }
+    .fire_team4 .col-12:nth-child(2n) .single_member .member_info {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .fire_team4 .single_member {
+        align-items: flex-start;
+    }
+    .fire_team4 .member_info h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    /*------style-5-----*/
+    .fire_team5 .single_member .member_info {
+        padding: 15px;
+    }
+    
+    
+    
+    
+}/*--end media query 768-991px--*/
+
+
+/* ===================Medium Mobile Screen==============*/
+@media (max-width: 767px) {
+    /*----style-2-----*/
+    .fire_team2 .single_member {
+        width: 40%;
+    }
+    .fire_team1 .member_info>h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    
+    /*----style-3-----*/
+    .fire_team3 .single_member {
+        width: 43.7%;
+    }
+    
+    /*-----style-4----*/
+    .fire_team4 .single_member {
+        display: block;
+    }
+    .fire_team4 .single_member .member_img {
+        width: 100%;
+    }
+    .fire_team4 .single_member .member_info {
+        padding-left: 0;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .fire_team4 .col-12:nth-child(2n) .single_member .member_info {
+        padding-right: 0;
+    }
+    
+    /*-------style-5---------*/
+    .fire_team5 .single_member {
+        margin-bottom: 50px;
+    }
+    .fire_team5 .single_member .member_info {
+        padding: 25px;
+    }
+    
+    /*-------style-6---------*/
+    .fire_team6 .single_member {
+        margin-bottom: 50px;
+    }
+    .fire_team6 {
+        padding-bottom: 0;
+    }
+    
+    
+}/*--end media query 480-767px--*/
+
+
+/* ==================Small Mobile Display==============*/
+@media (max-width: 479px) {
+    /*-------style-1------*/
+    .fire_team1 .single_member {
+        display: block;
+    }
+    .fire_team1 .member_info {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .fire_team1 .small .member_img img,
+    .fire_team1 .small .member_img {
+        width: 100%;
+    }
+    
+    /*------style-2, 3---------*/
+    .fire_team3 .team_wrapper,
+    .fire_team2 .team_wrapper {
+        margin-left: 0;
+    }
+    .fire_team3 .single_member,
+    .fire_team2 .single_member {
+        float: none;
+        margin: 0 auto 50px;
+        width: 100%;
+    }
+    
+    
+}/*--end media query 0-479px--*/
+
+
+
+
+
+
+
+
+
+
+

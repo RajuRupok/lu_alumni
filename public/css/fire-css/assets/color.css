@@ -1,0 +1,27 @@
+.fire_color .bg_color p {
+    color: #fff;
+    height: 60px;
+    line-height: 62px;
+    margin-bottom: 30px;
+}
+.fire_color .bg_color p.bg_f5 {
+  color: #222;
+}
+
+.fire_color .txt_color p {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+
+
+
+@media (max-width: 767px) {
+  .fire_color .txt_color {
+      margin-top: 70px;
+      text-align: center;
+  }
+    
+    
+    
+}/*--end media query 480-767px--*/

@@ -1,0 +1,169 @@
+/*------------------- Accordion common style ------------------*/
+.fire_accordion_common .card {
+    border-radius: 0;
+    border: none;    
+    border-top: 1px solid #eeeeee;
+}
+.fire_accordion_common .card .title {
+    color: #333333;
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    padding: 15px 0 15px 30px;
+}
+.fire_accordion_common .card .title i {
+    font-size: 24px;
+    left: 0;
+    position: absolute;
+    top: 18px;
+}
+.fire_accordion_common .card .title.collapsed i {
+    transform: rotate(-90deg);
+}
+.fire_accordion_common .card-body {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.fire_accordion_common.fire_accordion1 .card-body {
+    border-top: 1px solid #eeeeee;
+    padding: 15px 25px 25px 31px;
+}
+.fire_accordion_common.fire_accordion1 .card:last-child {
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+/*-------------accordion style-2------------*/
+.fire_accordion_common.fire_accordion2 .card .title {
+    padding: 15px 0 15px 40px;
+}
+.fire_accordion_common.fire_accordion2 .card .title i {
+    left: 15px;
+}
+.fire_accordion_common.fire_accordion2 .card-body {
+    border-top: none;
+    padding: 15px 15px 15px 40px;
+}
+.fire_accordion_common.fire_accordion2 .card {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.fire_accordion_common.fire_accordion2 .card .title {
+    border-radius: 5px;
+    border-bottom: 1px solid #dddddd;
+}
+.fire_accordion_common.fire_accordion2 .card .title.collapsed {
+    border-bottom: none;
+}
+
+
+/*-------------accordion style-3------------*/
+.fire_accordion_common.fire_accordion3 .card .title {
+    padding: 12px 45px 12px 20px;
+    background: #0482f8;
+    color: #fff;
+    position: relative;
+}
+.fire_accordion_common.fire_accordion3 .card .title {
+    border-radius: 5px;
+    border-bottom: none;
+}
+.fire_accordion_common.fire_accordion3 .card .title.collapsed:after,
+.fire_accordion_common.fire_accordion3 .card .title:after {
+    font-family: fontawesome;
+    font-size: 15px;
+    margin-top: 2px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fire_accordion_common.fire_accordion3 .card .title:after {
+    content: "\f068";
+}
+.fire_accordion_common.fire_accordion3 .card .title.collapsed:after {
+    content: "\f067";
+}
+.fire_accordion_common.fire_accordion3 .card .title.collapsed {
+    background: none;
+    color: #333;
+}
+.fire_accordion_common.fire_accordion3 .card {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.fire_accordion_common.fire_accordion3 .card-body {
+    padding: 15px 15px 15px 20px;
+    border-top: none;
+
+}
+
+
+/*-------------accordion style-4------------*/
+.fire_accordion_common.fire_accordion4 .card {
+    border-top: none;
+}
+.fire_accordion_common.fire_accordion4 .card .title {
+    border-bottom: 1px solid #0482f8;
+}
+.fire_accordion_common.fire_accordion4 .card .title.collapsed {
+    border-bottom-color: #dddddd;
+}
+.fire_accordion_common.fire_accordion4 .card-body {
+    padding: 15px 15px 15px 0;
+    border-top: none;
+}
+
+/*--------responsive code---------*/
+@media (max-width: 767px) {
+    .fire_accordion_common .card .title {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    
+    .fire_accordion_common .card .title i {
+        font-size: 19px;
+        top: 17px;
+    }
+    
+    
+}/*--end media query 480-767px--*/
+
+
+
+/*------no need this code------*/
+@media (max-width: 991px) {
+    .fire_accordion1,
+    .fire_accordion3{
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

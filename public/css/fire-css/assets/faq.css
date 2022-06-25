@@ -1,0 +1,99 @@
+/*------------------- start FAQ section style ------------------*/
+
+.fire_faq .faq_tab_menu .nav {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 23px;
+}
+.fire_faq .faq_tab_menu .nav>li{
+    width: 100%;
+}
+.fire_faq .faq_tab_menu .nav>li>a {
+    border-bottom: 1px solid #ddd;
+    color: #000000;
+    display: block;
+    font-size: 16px;
+    padding: 18px 15px;
+    position: relative;
+}
+.fire_faq .faq_tab_menu .nav>li:last-child>a {
+    border-bottom: none;
+}
+.fire_faq .faq_tab_menu .nav>li>a.active,
+.fire_faq .faq_tab_menu .nav>li>a:focus,
+.fire_faq .faq_tab_menu .nav>li>a:hover {
+    background-color: #2075F4;
+    color: #fff;
+    text-decoration: none;
+}
+.fire_faq .faq_tab_content {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.17);
+    margin-left: 20px;
+    margin-top: 53px;
+}
+.fire_faq .faq_tab_content .tab-pane h4 {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 30px;
+}
+.fire_faq .faq_tab_content .tab_text {
+    padding: 21px 30px 30px;
+}
+.fire_faq .faq_tab_content .tab_text>p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+/*------------------- end FAQ section style --------------------*/
+
+
+
+
+/*-----------------------responsive style-----------------------*/
+/* ====================Tab Screen==============*/
+@media (max-width: 991px) {
+    .fire_faq .general {
+        margin-right: 4%;
+    }
+    .fire_faq .general,
+    .fire_faq .installation {
+        float: left;
+        width: 48%;
+    }
+    .fire_faq .installation {
+        padding-top: 0;
+    }
+    .fire_faq .faq_tab_content {
+        margin-left: 0;
+    }
+    
+    
+}/*--end media query 768-991px--*/
+
+
+/* ====================mobile Screen==============*/
+@media (max-width: 767px) {
+    .fire_faq .general {
+        margin-right: 0;
+    }
+    .fire_faq .general,
+    .fire_faq .installation {
+        float: none;
+        width: 100%;
+    }
+    .fire_faq .installation {
+        padding-top: 50px;
+    }
+    .fire_faq .faq_tab_content {
+        margin-left: 0;
+    }
+    
+    
+}/*--end media query 768-991px--*/
+
+
+
+
+
+
+
